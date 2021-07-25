@@ -1,0 +1,17 @@
+@import "src/styles";
+
+svg {
+  cursor: pointer;
+
+  &:hover {
+    rect {
+      fill: $ui-blue-500;
+    }
+  }
+
+  &:active {
+    rect {
+      fill: $ui-blue-600;
+    }
+  }
+}
